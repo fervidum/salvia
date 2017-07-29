@@ -1,0 +1,12 @@
+# Global parameter defaults
+path: wp
+
+# Subcommand defaults (e.g. `wp core config`)
+core download:
+  locale: pt_BR
+
+core config:
+  require: wp-cli/command.php
+
+core install:
+  title: Salvia
